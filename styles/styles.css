@@ -1,0 +1,236 @@
+/*styles*/
+
+body {
+	font-family: "Lato", "Helvetica Neue";
+	margin:0;
+	background-color: #fff;
+}
+
+a {
+	color: black;
+}
+
+.link {
+	padding: 5px 0 5px 0;
+}
+
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	flex: 1;
+	padding: 5% 5% 0 10%;
+
+}
+
+.topbar {
+	display:flex;
+	position:fixed;
+	justify-content: flex-end;
+	align-items: center;
+	height: 45px;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	min-width: 300px;
+	z-index: 1;
+	background-color: white;
+}
+
+.top-link {
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+.top-link:hover {
+	border-bottom: solid 3px black;
+	
+}
+
+.m-sub-title-text {
+	font-size: 1.2em;
+	font-weight: 500;
+	line-height: 1.2em;
+}
+
+.m-title-text {
+	font-family: "Playfair Display", "Helvetica Neue";
+	font-weight: bold;
+	padding-bottom: 10px;
+	font-size: 3em;
+	color: #4551b0;
+}
+
+.s-sub-title-text {
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.description-text {
+	font-weight: 200;
+	font-size: 1.1em;
+}
+
+/*Landing page*/
+
+.landing-page {
+	display: flex;
+	height: 95vh;
+	padding: 0 5% 0 5%;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.text-container {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	max-width: 50%;
+}
+
+.title-text {
+	font-family: "Playfair Display", "Helvetica Neue";
+	font-size: 80px;
+	font-weight: bold;
+	color: #4551b0;
+}
+
+.m-sub-title-text-landing {
+	font-size: 2.2em;
+	font-weight: 500;
+	line-height: 1.2em;
+}
+
+.s-sub-title-text-landing {
+	font-size: 2em;
+	font-weight: 400;
+}
+
+
+/*About page */
+
+.about-page {
+	display: flex;
+	flex: 1 1 auto;
+	height: 95vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.image-wrapper {
+	width: 45%;
+	max-width: 45%;
+	padding: 50px 0 0 4%;
+}
+
+.title-wrapper {
+	display: flex;
+	justify-content: flex-start;
+	padding-bottom: 5px;
+}
+
+.content-container {
+	display: flex;	
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+/* --------- Work page ----------- */
+
+.work-page {
+	display: flex;
+	flex: 1 1 auto;
+	flex-direction: column;
+}
+
+.project-container {
+	display: flex;
+	flex: 1 1 auto;
+	background-color: white;
+	justify-content: flex-start;
+	flex-direction: column;
+	padding: 15px;
+	margin: 15px 0 15px 0;
+	border-radius: 8px;
+
+}
+
+.project-text-container {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	max-width: 100%;
+	padding-top: 8px;
+}
+
+
+/* -------- Contact page ---------- */
+
+.contact-page {
+	display: flex;
+	flex-direction: column;
+	height: 95vh;
+}
+
+/* MOBILE */
+@media (min-width: 320px) and (max-width: 480px) {
+
+	.landing-page {
+		padding-left: 20px;
+	}
+
+	.content-container {
+		width: 100%;
+	}
+  
+  .image-wrapper {
+  	width: 90%;
+  	max-width: 80%;
+  }
+
+  .text-container {
+  	padding: 10px 0 10px 0;
+	  max-width: 90%;
+
+  }
+
+  .title-text {
+  	font-size: 4em;
+  }
+
+  .m-sub-title-text {
+  	font-size: 1.3em;
+  }
+
+  .m-sub-title-text-landing {
+	  font-size: 1.5em;
+	  line-height: 1.3em;
+  }
+
+	.s-sub-title-text-landing {
+		font-size: 1.5em;
+	}
+
+  .s-sub-title-text {
+  	font-size: 1.2em;
+  }
+
+  .content-container {
+  	flex-direction: column;
+  }
+
+	.description-text {
+		font-size: 0.9em;
+	}
+  
+}
