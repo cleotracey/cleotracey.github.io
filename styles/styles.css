@@ -7,15 +7,39 @@ body {
 }
 
 a {
+
 	color: black;
 }
 
-.link {
-	padding: 5px 0 5px 0;
+a:hover {
+	color: #6E5CC1;
+	transition-duration: .5s;
 }
 
-.contact-link {
-	font-size: 1.4em;
+
+/************************
+	Fade Transitions
+*************************/
+
+@keyframes fade {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
+
+.link {
+	font-size: 1.3em;
+	padding: 5px 0 5px 0;
+	text-decoration: none;
+	border-bottom: solid 3px white;
+}
+
+.link:hover {
+	border-bottom: solid 3px #8377EE;
+	transition-duration: .5s;
 }
 
 
@@ -49,11 +73,14 @@ a {
 	font-weight: bold;
 	text-decoration: none;
 	margin-right: 20px;
+	border-bottom: solid 3px white;
+	text-
 }
 
 .top-link:hover {
-	border-bottom: solid 3px black;
-	
+	color: black;
+	border-bottom: solid 3px #8377EE;
+	transition-duration: .5s;
 }
 
 .m-sub-title-text {
@@ -68,7 +95,7 @@ a {
 	font-weight: bold;
 	padding-bottom: 10px;
 	font-size: 3em;
-	color: #4551b0;
+	color: #8377EE;
 }
 
 .s-sub-title-text {
@@ -104,7 +131,7 @@ a {
 	font-family: "Playfair Display", "Helvetica Neue";
 	font-size: 80px;
 	font-weight: bold;
-	color: #4551b0;
+	color: #8377EE;
 }
 
 .m-sub-title-text-landing {
@@ -114,7 +141,7 @@ a {
 }
 
 .s-sub-title-text-landing {
-	font-size: 2em;
+	font-size: 1.8em;
 	font-weight: 400;
 }
 
@@ -126,14 +153,16 @@ a {
 	flex: 1 1 auto;
 	height: 95vh;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 }
+
 
 .image-wrapper {
 	width: 45%;
 	max-width: 45%;
 	padding: 50px 0 0 4%;
+	text-align: center;
 }
 
 .title-wrapper {
@@ -155,6 +184,7 @@ a {
 	display: flex;
 	flex: 1 1 auto;
 	flex-direction: column;
+	justify-content: flex-start;
 }
 
 .project-container {
@@ -187,9 +217,22 @@ a {
 
 .link-container {
 	display: flex;
-	flex-direction: column;
 	justify-content: flex-start;
+	padding-top:  25px;
+}
 
+.contact-link {
+	font-size: 1.6em;
+	margin-right: 15px;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: solid 3px white;
+}
+
+.contact-link:hover {
+	color: black;
+	border-bottom: solid 3px #8377EE;
+	transition-duration: .5s;
 }
 
 /* MOBILE */
@@ -211,6 +254,7 @@ a {
   	width: 90%;
   	max-width: 90%;
   	padding: 0;
+  	text-align: center;
   }
 
   .text-container {
@@ -246,10 +290,6 @@ a {
 
 	.description-text {
 		font-size: 1.1em;
-	}
-
-	.about-page {
-		height: 100vh;
 	}
   
 }
