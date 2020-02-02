@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-	color: #6E5CC1;
+	color: #FF896D;
 	transition-duration: .5s;
 }
 
@@ -38,7 +38,7 @@ a:hover {
 }
 
 .link:hover {
-	border-bottom: solid 3px #8377EE;
+	border-bottom: solid 3px #FF896D;
 	transition-duration: .5s;
 }
 
@@ -81,7 +81,7 @@ a:hover {
 
 .top-link:hover {
 	color: black;
-	border-bottom: solid 3px #3c1ad6;
+	border-bottom: solid 3px #FF896D;
 	transition-duration: .5s;
 }
 
@@ -97,7 +97,7 @@ a:hover {
 	font-weight: bold;
 	padding-bottom: 10px;
 	font-size: 3em;
-	color: #3c1ad6;
+	color: #FF896D;
 }
 
 .s-sub-title-text {
@@ -133,7 +133,7 @@ a:hover {
 	font-family: "Playfair Display", "Helvetica Neue";
 	font-size: 80px;
 	font-weight: bold;
-	color: #3c1ad6;
+	color: #FF896D;
 	padding-top: 10px;
 }
 
@@ -162,8 +162,8 @@ a:hover {
 
 
 .image-wrapper {
-	width: 45%;
-	max-width: 45%;
+	width: 42%;
+	max-width: 42%;
 	padding: 50px 0 0 4%;
 	text-align: center;
 }
@@ -235,7 +235,7 @@ a:hover {
 
 .contact-link:hover {
 	color: black;
-	border-bottom: solid 3px #3c1ad6;
+	border-bottom: solid 3px #FF896D;
 	transition-duration: .5s;
 }
 
