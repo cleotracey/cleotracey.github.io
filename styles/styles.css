@@ -268,8 +268,7 @@ a:hover {
   .text-container {
   	padding: 40px 0 40px 0;
   	min-width:90%;
-	  max-width: 90%;
-
+	width: 90%;
   }
 
   .title-text {
