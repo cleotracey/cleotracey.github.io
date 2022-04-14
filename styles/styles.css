@@ -67,7 +67,6 @@ a:hover {
 	width: 100%;
 	min-width: 300px;
 	z-index: 1;
-	background-color: white;
 }
 
 .top-link {
@@ -76,12 +75,12 @@ a:hover {
 	font-weight: bold;
 	text-decoration: none;
 	margin-right: 20px;
-	border-bottom: solid 3px white;
+	border-bottom: solid 3px rgba(255, 137, 109, 0);
 }
 
 .top-link:hover {
 	color: black;
-	border-bottom: solid 3px #FF896D;
+	border-bottom: solid 3px rgba(255, 137, 109, 0.5);
 	transition-duration: .5s;
 }
 
@@ -97,7 +96,7 @@ a:hover {
 	font-weight: bold;
 	padding-bottom: 10px;
 	font-size: 3em;
-	color: #FF896D;
+	color: #F59148;
 }
 
 .s-sub-title-text {
@@ -133,7 +132,7 @@ a:hover {
 	font-family: "Playfair Display", "Helvetica Neue";
 	font-size: 80px;
 	font-weight: bold;
-	color: #FF896D;
+	color: #F59148;
 	padding-top: 10px;
 }
 
@@ -194,7 +193,6 @@ a:hover {
 .project-container {
 	display: flex;
 	flex: 1 1 auto;
-	background-color: white;
 	justify-content: flex-start;
 	flex-direction: column;
 	margin: 30px 0 15px 0;
@@ -230,12 +228,13 @@ a:hover {
 	margin-right: 15px;
 	text-decoration: none;
 	font-weight: bold;
-	border-bottom: solid 3px white;
+	border-bottom: solid 3px rgba(255, 137, 109, 0);
 }
 
 .contact-link:hover {
 	color: black;
-	border-bottom: solid 3px #FF896D;
+		border-bottom: solid 3px rgba(255, 137, 109, 0.5);
+
 	transition-duration: .5s;
 }
 
